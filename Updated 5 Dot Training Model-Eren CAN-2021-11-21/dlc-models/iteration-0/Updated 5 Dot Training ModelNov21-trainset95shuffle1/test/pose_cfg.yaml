@@ -1,0 +1,21 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+all_joints_names:
+- Xmax
+- Xmin
+- Ymax
+- Ymin
+- Center
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_Updated 5 Dot Training ModelNov21\Updated
+  5 Dot Training Model_Eren CAN95shuffle1.mat
+global_scale: 0.8
+init_weights: E:\Anaconda\envs\DEEPLABCUT\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_152.ckpt
+location_refinement: true
+locref_stdev: 7.2801
+net_type: resnet_152
+num_joints: 5
+scoremap_dir: test

@@ -1,0 +1,333 @@
+2021-11-21 01:16:12 Config:
+{'all_joints': [[0], [1], [2], [3], [4]],
+ 'all_joints_names': ['Xmax', 'Xmin', 'Ymax', 'Ymin', 'Center'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Updated 5 Dot '
+            'Training ModelNov21\\Updated 5 Dot Training Model_Eren '
+            'CAN95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': 'E:\\Anaconda\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_152.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Updated 5 '
+                'Dot Training ModelNov21\\Documentation_data-Updated 5 Dot '
+                'Training Model_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_152',
+ 'num_joints': 5,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': 'E:\\Updated 5 Dot Training Model-Eren CAN-2021-11-21',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': 'E:\\Updated 5 Dot Training Model-Eren '
+                    'CAN-2021-11-21\\dlc-models\\iteration-0\\Updated 5 Dot '
+                    'Training ModelNov21-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2021-11-21 01:45:39 iteration: 10000 loss: 0.0089 lr: 0.005
+2021-11-21 02:13:57 iteration: 20000 loss: 0.0051 lr: 0.02
+2021-11-21 02:42:17 iteration: 30000 loss: 0.0035 lr: 0.02
+2021-11-21 03:10:33 iteration: 40000 loss: 0.0030 lr: 0.02
+2021-11-21 03:38:53 iteration: 50000 loss: 0.0027 lr: 0.02
+2021-11-21 04:07:18 iteration: 60000 loss: 0.0025 lr: 0.02
+2021-11-21 04:35:35 iteration: 70000 loss: 0.0024 lr: 0.02
+2021-11-21 05:03:55 iteration: 80000 loss: 0.0022 lr: 0.02
+2021-11-21 05:32:11 iteration: 90000 loss: 0.0022 lr: 0.02
+2021-11-21 06:00:27 iteration: 100000 loss: 0.0021 lr: 0.02
+2021-11-21 06:28:45 iteration: 110000 loss: 0.0020 lr: 0.02
+2021-11-21 06:57:00 iteration: 120000 loss: 0.0020 lr: 0.02
+2021-11-21 07:25:19 iteration: 130000 loss: 0.0020 lr: 0.02
+2021-11-21 07:53:36 iteration: 140000 loss: 0.0019 lr: 0.02
+2021-11-21 08:21:55 iteration: 150000 loss: 0.0019 lr: 0.02
+2021-11-21 08:50:17 iteration: 160000 loss: 0.0018 lr: 0.02
+2021-11-21 09:18:34 iteration: 170000 loss: 0.0018 lr: 0.02
+2021-11-21 09:47:08 iteration: 180000 loss: 0.0018 lr: 0.02
+2021-11-21 10:15:34 iteration: 190000 loss: 0.0017 lr: 0.02
+2021-11-21 10:43:52 iteration: 200000 loss: 0.0017 lr: 0.02
+2021-11-21 11:12:15 iteration: 210000 loss: 0.0017 lr: 0.02
+2021-11-21 11:40:27 iteration: 220000 loss: 0.0017 lr: 0.02
+2021-11-21 12:08:45 iteration: 230000 loss: 0.0017 lr: 0.02
+2021-11-21 12:37:00 iteration: 240000 loss: 0.0016 lr: 0.02
+2021-11-21 13:05:15 iteration: 250000 loss: 0.0017 lr: 0.02
+2021-11-21 13:33:36 iteration: 260000 loss: 0.0016 lr: 0.02
+2021-11-21 14:01:53 iteration: 270000 loss: 0.0016 lr: 0.02
+2021-11-21 14:30:17 iteration: 280000 loss: 0.0016 lr: 0.02
+2021-11-21 14:59:02 iteration: 290000 loss: 0.0016 lr: 0.02
+2021-11-21 15:27:35 iteration: 300000 loss: 0.0016 lr: 0.02
+2021-11-21 15:55:58 iteration: 310000 loss: 0.0016 lr: 0.02
+2021-11-21 16:25:06 iteration: 320000 loss: 0.0015 lr: 0.02
+2021-11-21 16:53:47 iteration: 330000 loss: 0.0015 lr: 0.02
+2021-11-21 17:23:14 iteration: 340000 loss: 0.0015 lr: 0.02
+2021-11-21 17:57:53 iteration: 350000 loss: 0.0015 lr: 0.02
+2021-11-21 19:43:51 iteration: 360000 loss: 0.0015 lr: 0.02
+2021-11-21 20:11:33 iteration: 370000 loss: 0.0015 lr: 0.02
+2021-11-21 20:41:57 iteration: 380000 loss: 0.0015 lr: 0.02
+2021-11-21 21:12:25 iteration: 390000 loss: 0.0015 lr: 0.02
+2021-11-21 22:03:53 iteration: 400000 loss: 0.0015 lr: 0.02
+2021-11-21 22:37:54 iteration: 410000 loss: 0.0014 lr: 0.02
+2021-11-21 23:11:37 iteration: 420000 loss: 0.0015 lr: 0.02
+2021-11-21 23:43:50 iteration: 430000 loss: 0.0015 lr: 0.02
+2021-11-22 00:11:35 iteration: 440000 loss: 0.0013 lr: 0.002
+2021-11-22 00:39:15 iteration: 450000 loss: 0.0012 lr: 0.002
+2021-11-22 01:07:02 iteration: 460000 loss: 0.0012 lr: 0.002
+2021-11-22 01:34:42 iteration: 470000 loss: 0.0012 lr: 0.002
+2021-11-22 02:02:23 iteration: 480000 loss: 0.0012 lr: 0.002
+2021-11-22 02:30:04 iteration: 490000 loss: 0.0012 lr: 0.002
+2021-11-22 02:57:52 iteration: 500000 loss: 0.0012 lr: 0.002
+2021-11-22 03:25:36 iteration: 510000 loss: 0.0012 lr: 0.002
+2021-11-22 03:53:21 iteration: 520000 loss: 0.0012 lr: 0.002
+2021-11-22 04:21:08 iteration: 530000 loss: 0.0012 lr: 0.002
+2021-11-22 04:48:50 iteration: 540000 loss: 0.0012 lr: 0.002
+2021-11-22 05:16:36 iteration: 550000 loss: 0.0012 lr: 0.002
+2021-11-22 05:44:22 iteration: 560000 loss: 0.0012 lr: 0.002
+2021-11-22 06:12:06 iteration: 570000 loss: 0.0012 lr: 0.002
+2021-11-22 06:39:50 iteration: 580000 loss: 0.0012 lr: 0.002
+2021-11-22 07:07:33 iteration: 590000 loss: 0.0012 lr: 0.002
+2021-11-22 07:35:19 iteration: 600000 loss: 0.0011 lr: 0.002
+2021-11-22 08:03:03 iteration: 610000 loss: 0.0012 lr: 0.002
+2021-11-22 08:30:45 iteration: 620000 loss: 0.0012 lr: 0.002
+2021-11-22 08:58:30 iteration: 630000 loss: 0.0012 lr: 0.002
+2021-11-22 09:26:07 iteration: 640000 loss: 0.0012 lr: 0.002
+2021-11-22 09:53:50 iteration: 650000 loss: 0.0012 lr: 0.002
+2021-11-22 10:21:37 iteration: 660000 loss: 0.0012 lr: 0.002
+2021-11-22 10:49:16 iteration: 670000 loss: 0.0012 lr: 0.002
+2021-11-22 11:16:58 iteration: 680000 loss: 0.0011 lr: 0.002
+2021-11-22 11:44:42 iteration: 690000 loss: 0.0011 lr: 0.002
+2021-11-22 12:12:20 iteration: 700000 loss: 0.0011 lr: 0.002
+2021-11-22 12:40:03 iteration: 710000 loss: 0.0011 lr: 0.002
+2021-11-22 13:07:48 iteration: 720000 loss: 0.0011 lr: 0.002
+2021-11-22 13:35:25 iteration: 730000 loss: 0.0011 lr: 0.002
+2021-11-22 14:03:10 iteration: 740000 loss: 0.0011 lr: 0.001
+2021-11-22 14:30:54 iteration: 750000 loss: 0.0011 lr: 0.001
+2021-11-22 14:58:42 iteration: 760000 loss: 0.0011 lr: 0.001
+2021-11-22 15:26:28 iteration: 770000 loss: 0.0011 lr: 0.001
+2021-11-22 15:54:12 iteration: 780000 loss: 0.0011 lr: 0.001
+2021-11-22 16:21:56 iteration: 790000 loss: 0.0011 lr: 0.001
+2021-11-22 16:49:41 iteration: 800000 loss: 0.0011 lr: 0.001
+2021-11-22 17:17:27 iteration: 810000 loss: 0.0011 lr: 0.001
+2021-11-22 17:45:11 iteration: 820000 loss: 0.0011 lr: 0.001
+2021-11-22 18:12:53 iteration: 830000 loss: 0.0011 lr: 0.001
+2021-11-22 18:40:33 iteration: 840000 loss: 0.0011 lr: 0.001
+2021-11-22 19:08:17 iteration: 850000 loss: 0.0011 lr: 0.001
+2021-11-22 19:36:25 iteration: 860000 loss: 0.0011 lr: 0.001
+2021-11-22 20:04:53 iteration: 870000 loss: 0.0011 lr: 0.001
+2021-11-22 20:37:47 iteration: 880000 loss: 0.0011 lr: 0.001
+2021-11-22 21:10:11 iteration: 890000 loss: 0.0011 lr: 0.001
+2021-11-22 21:42:12 iteration: 900000 loss: 0.0011 lr: 0.001
+2021-11-22 22:12:36 iteration: 910000 loss: 0.0011 lr: 0.001
+2021-11-22 22:40:26 iteration: 920000 loss: 0.0011 lr: 0.001
+2021-11-22 23:08:14 iteration: 930000 loss: 0.0011 lr: 0.001
+2021-11-22 23:35:55 iteration: 940000 loss: 0.0011 lr: 0.001
+2021-11-23 00:03:32 iteration: 950000 loss: 0.0011 lr: 0.001
+2021-11-23 00:31:21 iteration: 960000 loss: 0.0011 lr: 0.001
+2021-11-23 00:59:09 iteration: 970000 loss: 0.0011 lr: 0.001
+2021-11-23 01:26:53 iteration: 980000 loss: 0.0011 lr: 0.001
+2021-11-23 01:54:32 iteration: 990000 loss: 0.0011 lr: 0.001
+2021-11-23 02:22:11 iteration: 1000000 loss: 0.0011 lr: 0.001
+2021-11-23 02:49:59 iteration: 1010000 loss: 0.0011 lr: 0.001
+2021-11-23 03:17:37 iteration: 1020000 loss: 0.0011 lr: 0.001
+2021-11-23 03:45:19 iteration: 1030000 loss: 0.0011 lr: 0.001
+2021-11-23 07:00:40 Config:
+{'all_joints': [[0], [1], [2], [3], [4]],
+ 'all_joints_names': ['Xmax', 'Xmin', 'Ymax', 'Ymin', 'Center'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Updated 5 Dot '
+            'Training ModelNov21\\Updated 5 Dot Training Model_Eren '
+            'CAN95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'E:\\Anaconda\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_152.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_152',
+ 'num_joints': 5,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'E:\\Updated 5 Dot Training Model-Eren '
+                    'CAN-2021-11-21\\dlc-models\\iteration-0\\Updated 5 Dot '
+                    'Training ModelNov21-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2021-11-23 07:02:24 Config:
+{'all_joints': [[0], [1], [2], [3], [4]],
+ 'all_joints_names': ['Xmax', 'Xmin', 'Ymax', 'Ymin', 'Center'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Updated 5 Dot '
+            'Training ModelNov21\\Updated 5 Dot Training Model_Eren '
+            'CAN95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'E:\\Anaconda\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_152.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_152',
+ 'num_joints': 5,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'E:\\Updated 5 Dot Training Model-Eren '
+                    'CAN-2021-11-21\\dlc-models\\iteration-0\\Updated 5 Dot '
+                    'Training ModelNov21-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2021-11-23 07:02:38 Config:
+{'all_joints': [[0], [1], [2], [3], [4]],
+ 'all_joints_names': ['Xmax', 'Xmin', 'Ymax', 'Ymin', 'Center'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Updated 5 Dot '
+            'Training ModelNov21\\Updated 5 Dot Training Model_Eren '
+            'CAN95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'E:\\Anaconda\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_152.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_152',
+ 'num_joints': 5,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'E:\\Updated 5 Dot Training Model-Eren '
+                    'CAN-2021-11-21\\dlc-models\\iteration-0\\Updated 5 Dot '
+                    'Training ModelNov21-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2021-11-23 07:03:19 Config:
+{'all_joints': [[0], [1], [2], [3], [4]],
+ 'all_joints_names': ['Xmax', 'Xmin', 'Ymax', 'Ymin', 'Center'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_Updated 5 Dot '
+            'Training ModelNov21\\Updated 5 Dot Training Model_Eren '
+            'CAN95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'E:\\Anaconda\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_152.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_152',
+ 'num_joints': 5,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'E:\\Updated 5 Dot Training Model-Eren '
+                    'CAN-2021-11-21\\dlc-models\\iteration-0\\Updated 5 Dot '
+                    'Training ModelNov21-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

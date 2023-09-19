@@ -6,8 +6,7 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:\Users\Huriye\Documents\code\clapfcstimulation\pupilExtraction\Updated
-  5 Dot Training Model-Eren CAN-2021-11-21
+project_path: C:\Users\Huriye\Documents\code\clapfcstimulation\pupilExtraction\pupil-Eren CAN-2021-11-21
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
